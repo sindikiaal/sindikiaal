@@ -1,0 +1,91 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgb(54, 59, 59);
+    padding: 10px;
+    padding-left: 20px;
+    color: white;
+}
+
+.body {
+    background-color: palevioletred;
+    border-radius: 20px;
+    margin: 10px 20px 20px;
+    padding: 10px;
+}
+
+.isi {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.isi form {
+    padding: 30px 5px 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+label {
+    padding: 5px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+select, button {
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+button.cari {
+    height: 35px;
+}
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.delete {
+    display: inline-block;
+    background-color: red;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
